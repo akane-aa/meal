@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body,
+a {
+  color: #515151;
+}
+
 h1 {
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
     "Hiragino Mincho ProN", "HG明朝E", "MS 明朝", serif;
@@ -17,7 +22,7 @@ header {
   background-repeat: no-repeat;
 }
 .contentWrapper {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   padding: 2rem 0;
@@ -37,7 +42,49 @@ h2 {
   line-height: 2.6rem;
 }
 
-body,
-a {
-  color: #515151;
+#topics {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#topics figcaption {
+  font-size: 1 rem;
+}
+/* #topics .flexcontent {
+  flex-basis: 30%;
+  flex-grow: 1;
+}*/
+#topics .flexcontent {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  width: 25%;
+  background-color: #f0f0f0;
+}
+
+#topics .flexcontent p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 160%;
+}
+#topics .flex {
+  display: flex;
+  /*追記*/
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#topics figure img {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  height: auto;
+}
+
+#gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#gallery .flex {
+  display: flex;
 }
