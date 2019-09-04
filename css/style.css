@@ -37,6 +37,13 @@ h2 {
   letter-spacing: 0.5rem;
 }
 
+h3 {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
+    "Hiragino Mincho ProN", "HG明朝E", "MS P明朝", "MS 明朝", serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
 #aboutus p {
   font-size: 1.2rem;
   line-height: 2.6rem;
@@ -82,9 +89,25 @@ h2 {
 
 #gallery img {
   width: 100%;
-  height: auto;
+  display: inline-block;
 }
 
 #gallery .flex {
   display: flex;
+}
+
+footer p,
+footer h3 {
+  margin: 0;
+}
+
+#upperFooter {
+  margin-top: 50px;
+  background-color: #dfdfdf;
+}
+
+#bottomFooter {
+  background-color: #343434;
+  color: #ffffff;
+  text-align: center;
 }
